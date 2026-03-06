@@ -1,0 +1,21 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "backend do marketplace",
+  "license": "ISC",
+  "author": "Marcellus Miller",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.3.5",
+    "express": "^5.2.1",
+    "install": "^0.13.0",
+    "npm": "^11.11.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
