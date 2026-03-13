@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 import  UsersService  from "../Services/Users.Service"
 import UserRegister from "../Interfaces/UserRegisterInterface";
-export class UserController {
+export default class UserController {
     constructor(private readonly UsersService: UsersService) {}
 
     async create(req: Request, res: Response) {

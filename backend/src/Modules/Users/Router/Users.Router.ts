@@ -4,7 +4,7 @@ const router = Router();
 
 // primeiros endpoints
 router.post("/user/register", (req, res) => {
-    UserRegisterController(req, res)
+    UserRegisterController
 });
 
 
