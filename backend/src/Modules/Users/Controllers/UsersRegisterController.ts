@@ -12,7 +12,6 @@ export default class UserController {
                 res.status(400).json({message: "Informações insuficientes"});
                 return
             }
-
             const user = await this.UsersService.create(body);
             res.status(201).json(user);
         } catch (error) {
